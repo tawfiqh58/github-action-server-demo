@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
     res.send('Hello from server!');
 });
 
-app.listen(process.env.PORT, () => {
-    console.log(`listening at: http://localhost:${process.env.PORT}`);
+app.listen(3000, () => {
+    console.log(`listening at: http://localhost:3000`);
 })
 
