@@ -1,0 +1,26 @@
+{
+  "name": "github-action-server-demo",
+  "version": "1.0.0",
+  "description": "Github action testing server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TawfiqHasan58/github-action-server-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TawfiqHasan58/github-action-server-demo/issues"
+  },
+  "homepage": "https://github.com/TawfiqHasan58/github-action-server-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
